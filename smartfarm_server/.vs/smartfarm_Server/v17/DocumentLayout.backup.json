@@ -1,0 +1,83 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA6628F-B626-462A-BE0C-61457975DDE0}|smartfarm_Server.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6628F-B626-462A-BE0C-61457975DDE0}|smartfarm_Server.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA6628F-B626-462A-BE0C-61457975DDE0}|smartfarm_Server.csproj|C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6628F-B626-462A-BE0C-61457975DDE0}|smartfarm_Server.csproj|solutionrelative:json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FA6628F-B626-462A-BE0C-61457975DDE0}|smartfarm_Server.csproj|C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FA6628F-B626-462A-BE0C-61457975DDE0}|smartfarm_Server.csproj|solutionrelative:dbservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Json.cs",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\Json.cs",
+              "RelativeDocumentMoniker": "Json.cs",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\Json.cs",
+              "RelativeToolTip": "Json.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T07:22:48.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DBService.cs",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\DBService.cs",
+              "RelativeDocumentMoniker": "DBService.cs",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\DBService.cs",
+              "RelativeToolTip": "DBService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T04:59:10.677Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "program.cs",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\program.cs",
+              "RelativeDocumentMoniker": "program.cs",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_server\\program.cs",
+              "RelativeToolTip": "program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T03:12:14.608Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

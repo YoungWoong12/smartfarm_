@@ -1,0 +1,164 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_client\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|solutionrelative:mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_client\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_client\\json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|solutionrelative:json.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_client\\temprecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|solutionrelative:temprecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_client\\smartfarm_client.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|solutionrelative:smartfarm_client.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_client\\connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|solutionrelative:connect.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_client\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|c:\\users\\iot121\\desktop\\smartfarm\\smartfarm_client\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0F1DA9F-7949-483D-BD83-D1C530D30BAD}|smartfarm_client.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\App.xaml",
+              "RelativeDocumentMoniker": "App.xaml",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\App.xaml",
+              "RelativeToolTip": "App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T02:27:05.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Json.cs",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\Json.cs",
+              "RelativeDocumentMoniker": "Json.cs",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\Json.cs",
+              "RelativeToolTip": "Json.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T02:08:12.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TempRecord.cs",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\TempRecord.cs",
+              "RelativeDocumentMoniker": "TempRecord.cs",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\TempRecord.cs",
+              "RelativeToolTip": "TempRecord.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:21:36.913Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "smartfarm_client",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\smartfarm_client.csproj",
+              "RelativeDocumentMoniker": "smartfarm_client.csproj",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\smartfarm_client.csproj",
+              "RelativeToolTip": "smartfarm_client.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-20T00:59:53.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\MainWindow.xaml.cs",
+              "RelativeToolTip": "MainWindow.xaml.cs",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAswAABAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:42:36.766Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-11-18T00:20:40.343Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\AssemblyInfo.cs",
+              "RelativeToolTip": "AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T01:42:14.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "connect.cs",
+              "DocumentMoniker": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\connect.cs",
+              "RelativeDocumentMoniker": "connect.cs",
+              "ToolTip": "C:\\Users\\IOT121\\Desktop\\smartfarm\\smartfarm_client\\connect.cs",
+              "RelativeToolTip": "connect.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAUwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-18T00:20:33.752Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,284 @@
+﻿<Window x:Class="smartfarm_client.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        Title="LMS Smart Farm"
+        Height="650"
+        Width="1000"
+        Background="#121212">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <!-- 상단 로고 -->
+            <RowDefinition Height="Auto"/>
+            <!-- 탭 영역 -->
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- ================= 상단 로고 바 ================= -->
+        <Border Grid.Row="0"
+                Background="#1E1E1E"
+                Height="60">
+            <StackPanel Orientation="Horizontal"
+                        VerticalAlignment="Center"
+                        Margin="20,0,0,0">
+                <TextBlock Text="LMS"
+                           FontSize="24"
+                           FontWeight="Bold"
+                           Foreground="#4CAF50"
+                           Margin="0,0,4,0"/>
+                <TextBlock Text="Smart Farm"
+                           FontSize="24"
+                           FontWeight="SemiBold"
+                           Foreground="White"/>
+            </StackPanel>
+        </Border>
+
+        <!-- ================= 메인 탭 컨트롤 ================= -->
+        <TabControl Grid.Row="1"
+                    x:Name="MainTab"
+                    Background="#121212"
+                    BorderThickness="0"
+                    TabStripPlacement="Left"
+                    Foreground="White"
+                    Margin="0">
+
+            <!-- ========== [탭 1 : 실시간 Chart] ========== -->
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Vertical"
+                                Margin="4"
+                                HorizontalAlignment="Center">
+                        <TextBlock Text="📊"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"/>
+                        <TextBlock Text="Chart"
+                                   FontSize="10"
+                                   Margin="0,4,0,0"
+                                   HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </TabItem.Header>
+
+                <Grid Background="#121212" Margin="10">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="140"/>
+                        <!-- 상단 카드 -->
+                        <RowDefinition Height="*"/>
+                        <!-- 차트 -->
+                    </Grid.RowDefinitions>
+
+                    <!-- ===== 상단: TEMP1 / TEMP2 카드 ===== -->
+                    <Grid Grid.Row="0"
+                          Margin="0,0,0,10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition/>
+                            <ColumnDefinition/>
+                        </Grid.ColumnDefinitions>
+
+                        <!-- TEMP1 카드 -->
+                        <Border x:Name="CardTemp1"
+                                Grid.Column="0"
+                                Margin="0,0,8,0"
+                                Background="#222222"
+                                CornerRadius="8">
+                            <StackPanel Margin="20">
+                                <TextBlock Text="TEMP1"
+                                           FontSize="18"
+                                           Foreground="White"
+                                           FontWeight="SemiBold"/>
+                                <TextBlock x:Name="txtTemp1"
+                                           Text="--.- ℃"
+                                           Margin="0,10,0,0"
+                                           FontSize="36"
+                                           FontWeight="Bold"
+                                           Foreground="White"/>
+                            </StackPanel>
+                        </Border>
+
+                        <!-- TEMP2 카드 -->
+                        <Border x:Name="CardTemp2"
+                                Grid.Column="1"
+                                Margin="8,0,0,0"
+                                Background="#222222"
+                                CornerRadius="8">
+                            <StackPanel Margin="20">
+                                <TextBlock Text="TEMP2"
+                                           FontSize="18"
+                                           Foreground="White"
+                                           FontWeight="SemiBold"/>
+                                <TextBlock x:Name="txtTemp2"
+                                           Text="--.- ℃"
+                                           Margin="0,10,0,0"
+                                           FontSize="36"
+                                           FontWeight="Bold"
+                                           Foreground="White"/>
+                            </StackPanel>
+                        </Border>
+                    </Grid>
+
+                    <!-- ===== 온도 추이 차트 ===== -->
+                    <Grid Grid.Row="1">
+                        <TextBlock Text="Temperature (℃)"
+                                   HorizontalAlignment="Left"
+                                   VerticalAlignment="Top"
+                                   Margin="10,4,0,0"
+                                   FontSize="16"
+                                   FontWeight="SemiBold"
+                                   Foreground="White"/>
+
+                        <lvc:CartesianChart x:Name="TemperatureChart"
+                                            Margin="0,30,0,0"
+                                            Background="#1E1E1E"
+                                            LegendLocation="Right"
+                                            Foreground="White"
+                                            FontSize="14"/>
+                    </Grid>
+                </Grid>
+            </TabItem>
+
+            <!-- ========== [탭 2 : Analysis] ========== -->
+            <TabItem>
+                <TabItem.Header>
+                    <StackPanel Orientation="Vertical"
+                                Margin="4"
+                                HorizontalAlignment="Center">
+                        <TextBlock Text="📈"
+                                   FontSize="20"
+                                   HorizontalAlignment="Center"/>
+                        <TextBlock Text="Analysis"
+                                   FontSize="10"
+                                   Margin="0,4,0,0"
+                                   HorizontalAlignment="Center"/>
+                    </StackPanel>
+                </TabItem.Header>
+
+                <Grid Margin="20"
+                      Background="#121212">
+
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <!-- 날짜/조회 -->
+                        <RowDefinition Height="200"/>
+                        <!-- DataGrid -->
+                        <RowDefinition Height="*"/>
+                        <!-- 파이차트 -->
+                    </Grid.RowDefinitions>
+
+                    <!-- ★ 툴팁 리소스 -->
+                    <Grid.Resources>
+                        <lvc:DefaultTooltip x:Key="DarkTooltip"
+                                            Background="#333333"
+                                            Foreground="White"
+                                            FontSize="14"
+                                            x:Shared="False"/>
+                    </Grid.Resources>
+
+                    <!-- ===== 날짜 선택 + 조회 버튼 ===== -->
+                    <StackPanel Orientation="Horizontal"
+                                Margin="0 0 0 15">
+                        <DatePicker x:Name="dpDay"
+                                    Width="150"
+                                    Foreground="Black"
+                                    Background="White"/>
+                        <Button Content="조회"
+                                Width="100"
+                                Height="30"
+                                Margin="10,0,0,0"
+                                Background="#333333"
+                                Foreground="White"
+                                Click="BtnQuery_Click"/>
+                    </StackPanel>
+
+                    <!-- ===== 통계 DataGrid ===== -->
+                    <DataGrid Grid.Row="1"
+                              x:Name="dgResult"
+                              AutoGenerateColumns="False"
+                              Background="#1E1E1E"
+                              Foreground="White"
+                              FontSize="16"
+                              BorderThickness="0"
+                              HorizontalGridLinesBrush="#444444"
+                              VerticalGridLinesBrush="#444444">
+
+                        <DataGrid.Resources>
+                            <!-- 헤더 스타일 -->
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="Background" Value="#333333"/>
+                                <Setter Property="FontWeight" Value="SemiBold"/>
+                            </Style>
+
+                            <!-- 행 + 선택 행 스타일 -->
+                            <Style TargetType="DataGridRow">
+                                <Setter Property="Foreground" Value="White"/>
+                                <Setter Property="Background" Value="#1E1E1E"/>
+                                <Setter Property="FontSize" Value="16"/>
+                                <Style.Triggers>
+                                    <Trigger Property="IsSelected" Value="True">
+                                        <Setter Property="Background" Value="#4CAF50"/>
+                                        <Setter Property="Foreground" Value="Black"/>
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.Resources>
+
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="센서"
+                                                Binding="{Binding Sensor}"
+                                                Width="*"/>
+                            <DataGridTextColumn Header="최소값"
+                                                Binding="{Binding Min}"
+                                                Width="*"/>
+                            <DataGridTextColumn Header="최댓값"
+                                                Binding="{Binding Max}"
+                                                Width="*"/>
+                            <DataGridTextColumn Header="평균"
+                                                Binding="{Binding Avg}"
+                                                Width="*"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
+
+                    <!-- ===== 파이 차트 영역 (Sensor A, B) ===== -->
+                    <StackPanel Grid.Row="2"
+                                Orientation="Horizontal"
+                                HorizontalAlignment="Center"
+                                Margin="0,5,0,0">
+
+                        <!-- Sensor A -->
+                        <StackPanel Width="230" Margin="0,0,40,0">
+                            <TextBlock Text="Sensor A"
+                                       FontSize="16"
+                                       FontWeight="SemiBold"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"
+                                       Margin="0,0,0,8"/>
+                            <lvc:PieChart x:Name="pieA"
+                                          Width="230"
+                                          Height="210"
+                                          FontSize="18"
+                                          Foreground="White"
+                                          DataTooltip="{StaticResource DarkTooltip}"/>
+                        </StackPanel>
+
+                        <!-- Sensor B -->
+                        <StackPanel Width="230">
+                            <TextBlock Text="Sensor B"
+                                       FontSize="16"
+                                       FontWeight="SemiBold"
+                                       Foreground="White"
+                                       HorizontalAlignment="Center"
+                                       Margin="0,0,0,8"/>
+                            <lvc:PieChart x:Name="pieB"
+                                          Width="230"
+                                          Height="210"
+                                          FontSize="18"
+                                          Foreground="White"
+                                          DataTooltip="{StaticResource DarkTooltip}"/>
+                        </StackPanel>
+                    </StackPanel>
+                </Grid>
+            </TabItem>
+
+        </TabControl>
+    </Grid>
+</Window>
